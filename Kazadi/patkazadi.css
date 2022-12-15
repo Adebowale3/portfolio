@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Montserrat:wght@100&family=My+Soul&family=Playfair+Display:ital@1&family=Raleway:wght@300;400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Metal+Mania&family=Montserrat:wght@100&family=My+Soul&family=Playfair+Display:ital@1&family=Raleway:wght@300;400&display=swap");
+
+* {
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    /* color: #777; */
+    color:#eee;
+   /* margin-top: 10px; */
+    /* font-family: inherit; */
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    /* background-color: rgba(158, 215, 204, 0.427); */
+    /* background: rgb(2,0,36); */
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(112,121,9,1) 35%, rgba(255,151,0,1) 100%);
+}
+
+.nav ul{
+    margin: 0;
+}
+.nav li{
+    display: inline;
+}
+.nav a {
+    display: inline-block;
+    padding: 20px;
+    color: white;
+    text-decoration: none ;
+}
+/* .nav a:visited{ */
+    /* color: red; */
+/* } */
+ 
+.main-nav{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: lighter;
+    border: 5px inset;
+    border-color: yellow red yellow red;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(112,121,9,1) 35%, rgba(255,151,0,1) 100%);
+
+}
+
+.main-nav li {
+    padding: 0 5%;
+}
+.nav a:hover{
+    color:orange;
+    background-color: rgba(255,255,255,0.3);
+    border-radius: 50%;
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, 6);
+    background-image: url("/kazadi/images/patricia-kazadi.jpeg");
+    background-repeat: cover;
+    /* width: 100%; */
+    background-blend-mode: screen;
+    background-size: auto;
+    padding-bottom: 30px;
+    height: 500px;
+}
+.band-name{
+    text-align: center;
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'Metal Mania', cursive;
+    font-weight: normal;
+    color: white;
+}
+.band-name-large {
+    font-size: 4em;
+}
+.content-section{
+    margin: 1em;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+.section-header{
+    font-family: 'Metal Mania',cursive;
+    font-weight: normal;
+    /* color: #333; */
+    color: #eee;
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 1px;
+}
+.about-band-image{
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin: 15px;
+    border-radius: 50%;
+}
+.main-footer{
+    background-color: #56ccf2;
+    color: white;
+    padding: .25em 0;
+}
+.main-footer-container{
+    display: flex;
+    align-items: center;
+}
+.main-footer-container ul{
+    flex-grow: 1;
+    text-align: end;
+}
+.footer-nav li {
+    padding: 0 .5em;
+}
+.footer-nav img {
+    width: 30px;
+    height: 30px;
+}
+.btn{
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em;
+    cursor: pointer;
+}
+.btn btn-header{
+    text-align: center;
+}
+.btn-header{
+    margin: .5em 15% 2em 15%;
+    color: white;
+    border: 2px solid #209CDB;
+    background-color: rgba(255,255,255,.1);
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: lighter;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+.btn-header:hover{
+    background-color: rgba(255,255,255,.3);
+    border: 2px solid red;
+}
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #209CDB;
+    font-size: 4em;
+    border-radius: 50%;
+    padding: 0;
+    width: 100px;
+    height: 100px;
+}
+
+.tour-row{
+    border-bottom: 1px solid black;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+}
+.tour-bottom{
+    border-bottom: none;
+
+}
+
+.tour-top{
+    border-top: 1px solid black;
+    padding-top: 1em;
+}
+.tour-item{
+    display: inline-block;
+    padding-right: .5em;
+
+}
+.tour-date{
+    color: #555;
+    font-weight: bold;
+    width: 11%;
+}
+.tour-city{
+    width: 24%;
+}
+.tour-arena{
+    width: 42%;
+}
+.tour-btn{
+    max-width: 19%;
+}
+.container1{
+    text-align: center;
+}
+.btn-primary{
+    color: white;
+    background-color: #56ccf2;
+    border: none;
+    margin-left: 5px;
+    border-radius: .3em;
+    font-weight: bold;
+}
+.btn-primary:hover{
+background-color: #209CDB;
+}
+.shop-item{
+    margin: 30px;
+}
+.shop-item-title{
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+    margin-bottom: 15px;
+}
+.shop-item-image{
+    height: 160px;
+    width: 160px;
+}
+.shop-item-details{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+.shop-item-price{
+    flex-grow: 1;
+    color: white;
+}
+.shop-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.cart-header{
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+}
+.cart-column{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+.cart-row{
+    display: flex;
+}
+.cart-item{
+width: 45%;
+}
+.cart-price{
+width: 20%;
+font-size: 1.2em;
+/* color: #333; */
+color: white;
+}
+.cart-quantity{
+width: 35%;
+}
+.cart-item-title{
+    color: white;
+    margin-left: .5em;
+    font-size: 1em;
+}
+.cart-item-image{
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+.btn-danger{
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #CC4C4C;
+}
+.cart-quantity-input{
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56ccf2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+.cart-row:last-child{
+    border-bottom: 2px solid black;
+}
+.cart-row:last-child .cart-column{
+    border: none;
+}
+.cart-total{
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.cart-total-title{
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #eee;
+    margin-right: 20px;
+}
+.cart-total-price{
+    color: #eee;
+    font-size: 1.1em;
+    
+}
+.btn-purchase{
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+.audio-container{
+    text-align: center;
+    margin: 20px 20px 0px 20px;
+}
+.audio-container audio{
+    background-color:transparent;
+    border: 1px solid #209CDB;
+    border-radius: 50%;
+    padding: 30px ;
+    width: 100px;
+    height: 100px;
+}
+.audio-container audio:hover{
+    background-color: rgba(255,255,255,.3);
+    border: 2px solid red;
+}

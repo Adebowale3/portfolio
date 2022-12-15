@@ -1,0 +1,217 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+}
+
+/* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+
+
+}
+
+/* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  /* CSS */
+
+  body{
+    padding-bottom: 0;
+    /* background-color: red; */
+}
+
+
+}
+
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  /* CSS */
+
+  body{
+      padding-bottom: 80px;
+      /* background-color: red; */
+  }
+
+  .about-section .container {
+    flex-direction: column;
+    padding: 18px;
+    align-items: center;
+  }
+
+  .about-section .about-details {
+    margin-top: 18px;
+
+  }
+  .about-section .about-details p {
+    text-align: justify;
+  }
+
+  .subscribe-section .container {
+    flex-direction: column;
+    padding: 18px;
+    align-items: center;
+  }
+
+  .subscribe-section .subscribe-details {
+    margin-top: 18px;
+  }
+
+  .contact-section {
+    padding: 18px;
+  }
+  .contact-section .form-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .contact-section .map-container {
+    margin-top: 70px !important;
+  }
+  .contact-section .contact-row {
+    flex-direction: column;
+  }
+  
+  .info-section .info-box {
+    flex-direction: column;
+    /* background-color: black; */
+    align-items: center;
+  }
+
+  .info-section .info-box .info-contact {
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+
+  .course-section .container {
+    padding: 18px 60px;
+    align-items: center;
+  }
+
+
+  .course-container-details .box-item .arrow-right {
+    right: -40px;
+    top: 65px;
+  }
+
+  .course-container-details .box-item .arrow-left{
+    left: -40px;
+    top: 65px;
+  }
+  .footer-section .container{
+    padding: 18px;
+}
+
+
+
+}
+
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+
+@media (min-width: 320px) and (max-width: 480px) {
+  /* CSS */
+
+  .ade{
+    margin-left: 0;
+}
+  .about-section .container {
+    flex-direction: column;
+    padding: 18px;
+    align-items: center;
+  }
+
+  .about-section .about-details {
+    margin-top: 18px;
+
+  }
+  .about-section .about-details p {
+    text-align: justify;
+  }
+
+  .subscribe-section .container {
+    flex-direction: column;
+    padding: 18px;
+    align-items: center;
+  }
+
+  .subscribe-section .subscribe-details {
+    margin-top: 18px;
+  }
+
+  .contact-section {
+    padding: 18px;
+  }
+  .contact-section .form-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .contact-section .map-container {
+    margin-top: 70px !important;
+  }
+  .contact-section .contact-row {
+    flex-direction: column;
+  }
+  .bottom-bg .container{
+      /* background-color: yellow; */
+      margin-bottom: 25px;
+  }
+  .info-section .info-box {
+    flex-direction: column;
+    /* background-color: black; */
+    align-items: center;
+  }
+
+  .info-section .info-box .info-contact {
+    flex-direction: column;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+
+  .course-section .container {
+    padding: 18px 60px;
+    align-items: center;
+  }
+
+
+  .course-container-details .box-item .arrow-right {
+    right: -40px;
+    top: 65px;
+  }
+
+  .course-container-details .box-item .arrow-left{
+    left: -40px;
+    top: 65px;
+  }
+
+  .footer-section .container{
+      padding: 18px;
+  }
+
+
+}
