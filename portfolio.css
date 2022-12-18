@@ -531,7 +531,7 @@ textarea {
   display: flex;
   align-items: center;
   font-size: 20px;
-  margin-left: 50px;
+  /* margin-left: 50px; */
   margin-top: 50px;
 }
 
@@ -640,11 +640,23 @@ textarea {
     flex-direction: column-reverse;
     padding: 2% 7%;
   }
-
   .my-contact {
-    margin-left: 0;
+    /* margin-left: -44px; */
+    justify-content: center;
+    
   }
+  .my-contact h1{
+    font-size: 32px;
+  }
+  
+  .my-contact span{
+    font-size: 12px;
 
+  }
+  .contact-me {
+    padding: 16px;
+  }
+    
 }
 
 @media (min-width: 481px) and (max-width: 760px) {
@@ -746,6 +758,10 @@ textarea {
 
   .my-contact {
     margin-left: 0;
+  }
+  .contact-me > {
+    font-size: 10px;
+    background-color: red;
   }
 
 
